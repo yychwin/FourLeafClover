@@ -1,0 +1,118 @@
+{
+  "dashboard": {
+    "completedTasks": "Nom Forecast",
+    "dailySales": "Option Pricing",
+    "performance": "FX Exchange",
+    "simpleTable": "Client Assets",
+    "totalShipments": "FX Delta Dashboard",
+    "chartCategories": [
+      "USD/JPY",
+      "USD/EUR",
+      "USD/GPB"
+    ],
+    "tasks": "Recommend Options({count})",
+    "today": "Today",
+    "dropdown": {
+      "action": "Action",
+      "anotherAction": "Another Action",
+      "somethingElse": "Something else"
+    },
+    "usersTable": {
+      "title": "Client Assets",
+      "columns": [
+        "BPNumber",
+        "Type",
+        "CCY",
+        "Amount"
+      ],
+      "data": [
+        {
+          "id": 1,
+          "bpnumber": "102",
+          "amount": "243,711.07",
+          "type": "Loan",
+          "ccy": "EUR"
+        },
+        {
+          "id": 2,
+          "bpnumber": "",
+          "amount": "1,087,060.58",
+          "type": "Cash",
+          "ccy": "USD"
+        },
+        {
+          "id": 3,
+          "bpnumber": "",
+          "amount": "3,007,874.13",
+          "type": "Cash",
+          "ccy": "JPY"
+        },
+        {
+          "id": 4,
+          "bpnumber": "106",
+          "amount": "422,527.80",
+          "type": "Loan",
+          "ccy": "JPY"
+        },
+        {
+          "id": 5,
+          "bpnumber": "",
+          "amount": "45,420.63",
+          "type": "Cash",
+          "ccy": "SGD"
+        },
+        {
+          "id": 6,
+          "bpnumber": "111",
+          "amount": "281,861.74",
+          "type": "Loan",
+          "ccy": "EUR"
+        },
+        {
+          "id": 7,
+          "bpnumber": "",
+          "amount": "1,480,355.14",
+          "type": "Cash",
+          "ccy": "JPY"
+        }
+      ]
+    },
+    "taskList": [
+      {
+        "title": "102 Option Permutation 1m --- First Recommendation",
+        "description": "Sell EUR Put USD Call, Sell EUR Put JPY Call, Premium received for Tenor 1 month. AI recommendation score is 3.",
+        "done": true
+      },
+      {
+        "title": "102 Option Permutation 1m --- Second Recommendation",
+        "description": "Sell EUR Put USD Call, Sell EUR Put JPY Call, Premium received for Tenor 2 week. AI recommendation score is 3.",
+        "done": false
+      },
+      {
+        "title": "106 Option Permutation 1w --- First Recommendation",
+        "description": "Sell JPY Put SGD Call, Premium received for Tenor 1 week. AI recommendation score is 2.",
+        "done": true
+      },
+      {
+        "title": "106 Option Permutation 1w --- Second Recommendation",
+        "description": "Sell JPY Put SGD Call, Premium received for Tenor 2 week. AI recommendation score is 2.",
+        "done": false
+      },
+      {
+        "title": "111 Option Permutation 2w --- First Recommendation",
+        "description": "Sell EUR Put JPY Call, Premium received for Tenor 1 week. AI recommendation score is 2.",
+        "done": true
+      }
+    ]
+  },
+  "sidebar": {
+    "title": "IWM",
+    "shortTitle": "CT",
+    "dashboard": "dashboard",
+    "tableList": "Client Assets",
+    "icons": "Icons",
+    "notifications": "Today News",
+    "userProfile": "RM Portfolio",
+    "typography": "About IWM"
+  }
+}
